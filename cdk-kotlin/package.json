@@ -10,6 +10,8 @@
     "repository:destroy": "cdk destroy --app \"./gradlew -q run -Papp=DockerRepositoryAppKt\" --force --require-approval never",
     "service:deploy": "cdk deploy --app \"./gradlew -q run -Papp=ServiceAppKt\" --require-approval never",
     "service:destroy": "cdk destroy --app \"./gradlew -q run -Papp=ServiceAppKt\" --force --require-approval never",
+    "gitHubActionsUser:deploy": "cdk deploy --app \"./gradlew -q run -Papp=GitHubActionsAppKt\" --force --require-approval never",
+    "gitHubActionsUser:destroy": "cdk destroy --app \"./gradlew -q run -Papp=GitHubActionsUserAppKt\" --force --require-approval never",
     "java:version": "java -version",
     "gradle:version": "./gradlew -v"
   },
